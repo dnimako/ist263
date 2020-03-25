@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <title> Syracuse Uprise </title>
+    <style> 
+    .currentnews {
+       background-color: white;
+        columns: 100px 1;
+        column-gap: 20px;
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        border: 3px solid black;
+        padding: 25px;
+    }
+    .graphs {
+        background-color:white;
+        padding: 45px;
+        left: 0px;
+    }
+    .footer {
+     position: static;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     color: black;
+     text-align: center;
+     font-size: x-small;
+}
+</style>
+</head>
+<body>
+
+<h1> Quick Facts</h1>
+
+<nav>  
+    <a href="/Syracuse Uprise/">Syracuse Uprise</a> |
+    <a href="/Quick Facts/">Quick Facts</a> |
+    <a href="/What You Can Do/">What You Can Do</a>
+    </nav> 
+
+<div class= "currentnews"> 
+  <h1> Current News </h1>
+  <h2> Breaking: Governor Cuomo Orders the end of all Non-Essential Large Gatherings </h2>
+  <h2> Breaking: Two Women in Onandoga County Tested Positive for COVID-19 </h2>
+  <h2> Breaking: Local Woman Found Dead Post Stabbing Incident </h2>
+  <h2> Syracuse University's Basketball team wins against UNC</h2>
+</div>
+
+
+<div class= "graphs">    
+<iframe width="700px" height="450px" src="https://datausa.io/profile/geo/syracuse-ny/education/edu_ethnicity?viz=true" frameborder="0" ></iframe>
+<ul>
+    <li> In 2017 the majority of degrees awarded at institutions in Syracuse, NY were to White students </li>
+    <li> These <strong> 4,745 degrees </strong> mean that there were 6.93 times more White students then the next closest race/ethnicity group </li>
+    <li> When the gap between race and education is this large, it makes it more difficult to combat poverty.  </li>
+</ul>
+</div>
+
+<div class= "graphs">    
+ <iframe width="700px" height="450px" src="https://datausa.io/profile/geo/syracuse-ny/economy/tmap_ind_num_emp?viz=true" frameborder="0" ></iframe>
+<ul>
+    <li> From 2016 to 2017, employment in Syracuse, NY grew at a rate of <strong> 0.118% </strong>, from <strong> 58.7k </strong> employees to <strong> 58.7k </strong> employees.We are looking to help to increase these numbers even more.</li>
+    <li> The most common employment sectors for those who live in Syracuse, NY, are  <strong> Health Care & Social Assistance (11,587 people), Educational Services (9,247 people), and Retail Trade (6,594 people). </strong>  </li>
+    <li>** Census data is tagged to a residential address, not a work address, so  some of these residents may live in Syracuse, NY and work somewhere else.**  </li>
+ </ul>
+</div>
+    
+    
+<div class= "graphs">    
+<iframe width="720px" height="450px" src="https://datausa.io/profile/geo/syracuse-ny/economy/poverty_age_gender?viz=true" frameborder="0" ></iframe>
+         <li> <strong> 32.6% </strong> of the population for whom poverty status is determined in Syracuse, NY (42.7k out of 131k people) live below the poverty line, a number that is higher than the national average of <strong> 13.1% </strong> </li>
+         <li> The largest demographic living in poverty are Females 18 - 24.</li>
+         <li> The poverty rate is followed by Females 25 - 34 and then Males 18 - 24. </li>
+    </ul>
+</div> 
+           
+
+<div class= "graphs">    
+<iframe width="700px" height="450px" src="https://datausa.io/profile/geo/syracuse-ny/housing/household_income?viz=true" frameborder="0" ></iframe>
+    <ul>
+        <li> In 2017, the median household income of the 55.6k households in Syracuse, NY grew to <strong> $34,716 </strong> from the previous year's value of <strong> $32,704. </strong> </li>
+        <li> However, The largest share of households have an income below the <strong> $10k </strong> range. </li>
+        <li> In this area, there are over <strong> 55.6K Households </strong> </li>
+    </ul>
+</div>
+        
+<div class="footer">
+<p>Data Source Information Can Be Found at https://datausa.io/profile/geo/syracuse-ny/</p>
+</div>
+
+</body>
