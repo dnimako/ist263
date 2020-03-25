@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <title> Syracuse Uprise </title>
+    <style>
+    .space {
+        background-color: white;
+         width: 380px;
+        margin: 10px;
+        padding: 7px;
+    }
+    .about {
+        background-color: white;
+         width: 650px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .currentnews {
+       background-color: white;
+        columns: 100px 1;
+        column-gap: 20px;
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        border: 3px solid orange;
+        padding: 10px;
+      
+    }
+
+    .aboutme {
+       background-color: white;
+        columns: 400px 1;
+        column-gap: 50px;
+        position: absolute;
+        right: 0px;
+        width: 300px;
+        border: 3px solid orange;
+        padding: 2px;
+        margin: 10px
+    }
+    </style>
+
+</head>
+
+<body>
+
+<h1> Syracuse Uprise </h1>
+
+<!--<h2> <img src="up-arrow.png" alt = "Syracuse Uprise Logo" style="height:120px;"> </h2>-->
+
+<nav>  
+<a href="/Syracuse Uprise/">Syracuse Uprise</a> |
+<a href="/The Current Situation/">The Current Situation</a> |
+<a href="/What You Can Do/">What You Can Do</a>
+</nav> 
+
+<div class ="currentnews">
+  <h1> Current News </h1>
+  <h2> Breaking: Governor Cuomo Orders the end of all Non-Essential Large Gatherings </h2>
+  <h2> Breaking: Two Women in Onandoga County Tested Positive for COVID-19 </h2>
+  <h2> Breaking: Local Woman Found Dead Post Stabbing Incident </h2>
+  <h2> Syracuse University's Basketball team wins against UNC</h2>
+
+
+    </div>
+
+<div class ="space">
+<img src="page1photo.jpg" alt="Photo of Syracuse" style="width:600px;height:400px;">
+</div>
+
+<div class ="about">
+<h3> About Syracuse Uprise </h3>
+<p> We are a non-profit organization dedicated to bringing awarness to the institutional poverty issues in Syracuse, New York. We are actively working to encourage citizens of our city to give back to those who are in dire need of basic resources, such as food, water and shelter. Through this site, we will educate the public on how we can come together as a community to help others. </p>
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sFjFISbtdPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class ="aboutme">
+ <img src="myphoto.jpg" alt="Photo of Danielle Nimako" style="width:300px;height:350px;">
+Danielle is a local Syracuse University Student who has decided to dedicate her remaining years to helping decrease the poverty rate in Syracuse. She is doing that by educating the youth by introducing them to STEM related fields, as well is utilzing resources on her university to give them basic life essentials. 
+
+</div>
+
+
+</body>
